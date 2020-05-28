@@ -8,7 +8,7 @@ after push to origin, both point to same hash
 Exercise 1.2
 Remote is an alias of the url it is being pointed to
 -u means upstream. links repo to the "main" one
-Should the readme not be in <h1>? Looks like mine is broken
+Should the readme not be in header tag? Looks like mine is broken
 Connection between local repo name and remote? no idea
 remove remote by git remove remote
 Looks the same to me compared to method 1
@@ -70,3 +70,16 @@ head pointing on master, a clean slate
 Worked as expected
 new branch st1 pointing to same as master
 going from master, modifying a file and then stashing a second time and creating a branch for it created a branch pointing to same as master but st1 pointing at a commit above
+
+Exercise 3.1
+Skipped as I'm familiar with pull requests
+
+Exercise 3.1b
+Followed in-meeting walkthrough so skipped exercise for now. Good thinking is doing rebase to keep linear history
+
+Exercise 4.1
+branch B still present
+branch B still present (locally, not remote)
+I think it would be good for local to know if remote branch is removed to be as up to date as possible with remote. Might be a risk of working in a removed branch locally otherwise.
+git config --global fetch.prune true
+It removes to make sure you can't push to a nonexistent branch (?)
